@@ -1,0 +1,338 @@
+#timer, #message{
+    display: inline;
+}
+
+#message{
+    font-weight: 300;
+}
+
+#countdown{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    background: linear-gradient(rgba(22, 22, 22, 0.9),rgba(38, 38, 38, 0.90)), url(../jakob/2017-s5.jpg) ;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.btn-zoom{
+    transition: 0.2s;
+}
+
+.btn-zoom:hover{
+    transform: scale(1.07);
+}
+
+.navbar-nav li{
+    font-weight: bold;
+}
+
+.modcontainer {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+        @media (min-width: 576px) {
+      .modcontainer {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;} }
+    @media (min-width: 768px) {
+      .modcontainer {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;} }
+    @media (min-width: 992px) {
+      .modcontainer {
+        max-width: 960px; } }
+    @media (min-width: 1200px) {
+      .modcontainer {
+        max-width: 1140px; } }
+
+#hero{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pageheading{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.title{
+    font-family: 'PT Sans';
+    color: #000;
+}
+
+.hr-thick{
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: #000;
+}
+
+.hr-mid{
+    border-width: 1.5px;
+}
+
+#intro{
+    background: linear-gradient(rgba(242, 242, 242, 0.20),rgba(248, 249, 250, 1)), url("../jakob/2014-s-04-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+html, body {
+    height: 100%;
+  }
+
+body{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    flex: 1 200px;
+}
+
+#sponsors{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-card:hover{
+    text-decoration: none;
+}
+
+a .card-body{
+    color: #000;
+}
+
+.fadeIn{
+    -vendor-animation-duration: 2s;
+}
+
+.jumbotron{
+    background-size: cover;
+    height:60vh;
+    border-radius: 0px;
+}
+
+.jumbotron-smaller{
+    background-size: cover;
+    height: 40vh;
+    border-radius: 0px;
+}
+
+.card-speaker-img-top{
+	border-radius: 0px; 
+	width: 100%;
+	height: 200px;
+}
+
+#speakers-box{
+    background: #92d3ec;
+}
+
+.speaker-card{
+	transition: transform .2s;
+	height: 100%;
+}
+
+.speaker-card:hover{
+    transform: scale(1.05);
+}
+
+.img-speaker-card{
+	object-fit: cover;
+}
+
+.footer{
+    background-color: #ebebeb;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer-title{
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.footer-nav{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-nav-item{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.footer-nav-item a{
+    color: #000;
+}
+
+.footer-nav-item a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.copyright{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.partner{
+    filter: invert(100%);
+}
+
+.partner:hover{
+    opacity: 0.7;
+}
+
+.partnercol{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.partnerdiv{
+    display:flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.navbar-brand:hover{
+    opacity: 0.7;
+}
+
+.whitebg{
+    background-color: #fff;
+}
+
+.card-title{
+    font-weight: 700;
+    font-family: 'PT Sans';
+}
+
+.frontpage-options{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#books{
+    flex: 1 252px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em
+}
+
+#speakers{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    flex: 1 252px;
+}
+
+#program{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    flex: 1 252px;
+}
+
+.flex-vert{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    align-self: flex-start;
+}
+
+.social{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.nav-item a{
+    display: block;
+    padding: 0.5rem 1rem; }
+    .nav-item a:hover, .nav-item a:focus {
+      text-decoration: none; }
+    .nav-item a.disabled {
+      color: #6c757d; }
+
+.navbar-light .navbar-nav .nav-item a {
+    color: rgba(0, 0, 0, 0.5); }
+.navbar-light .navbar-nav .nav-item a:hover, .navbar-light .navbar-nav .nav-item a:focus {
+    color: rgba(0, 0, 0, 0.7); }
+.navbar-light .navbar-nav .nav-item a.disabled {
+    color: rgba(0, 0, 0, 0.3); }
+.navbar-light .navbar-nav .show > .nav-item a,
+.navbar-light .navbar-nav .active > .nav-item a,
+.navbar-light .navbar-nav .nav-item a.show,
+.navbar-light .navbar-nav .nav-item a.active {
+    color: rgba(0, 0, 0, 0.9); }
+
+.current_page_item a{
+    color: rgba(0, 0, 0, 0.9) !important;
+} 
+
+.navbar{
+    display: block;
+}
+
+.ajaxd-select{
+    float: left !important;
+}
+
+body select { display: block; 
+    padding: 10px 70px 10px 13px !important; 
+    max-width: 100%; 
+    height: auto !important; 
+    border: 1px solid #e3e3e3; 
+    border-radius: 30px; 
+    background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat; 
+    background-color: #e8e8e8; 
+    color: #444444; 
+    line-height: 16px !important; 
+    appearance: none; /* this is must */ -webkit-appearance: none; -moz-appearance: none; } /* body select.select_box option */ body select option { padding: 0 4px; } /* for IE and Edge */ select::-ms-expand { display: none; } select:disabled::-ms-expand { background: #f60; }
